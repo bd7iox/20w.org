@@ -2442,7 +2442,8 @@ var domains = {
   "oculus.com": 1
 };
 
-var proxy = "PROXY 127.0.0.1:8118; PROXY 192.168.1.229:8118;";
+// var proxy = "PROXY 127.0.0.1:8118; PROXY 192.168.1.229:8118;";
+var proxy = "SOCKS5 127.0.0.1:1080; SOCKS5 192.168.1.229:1080; PROXY 127.0.0.1:8118; PROXY 192.168.1.229:8118;";
 
 var direct = 'DIRECT;';
 
