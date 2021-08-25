@@ -2448,6 +2448,11 @@ var proxy = "SOCKS5 127.0.0.1:1080; SOCKS5 192.168.1.229:1080; PROXY 127.0.0.1:8
 var direct = 'DIRECT;';
 
 function FindProxyForURL(url, host) {
+    return proxy;
+}
+
+/*
+function FindProxyForURL(url, host) {
     var lastPos;
     do {
         if (domains.hasOwnProperty(host)) {
@@ -2458,3 +2463,4 @@ function FindProxyForURL(url, host) {
     } while (lastPos >= 1);
     return direct;
 }
+*/
