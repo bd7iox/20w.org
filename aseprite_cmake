@@ -8,6 +8,6 @@ cmake \
   -DSKIA_DIR=$HOME/deps/skia \
   -DSKIA_LIBRARY_DIR=$HOME/deps/skia/out/Release-x64 \
   -DSKIA_LIBRARY=$HOME/deps/skia/out/Release-x64/libskia.a \
-  -DWEBP_LIBRARY=$HOME/webp/libwebp.a \
+  -DWEBP_LIBRARY=$HOME/webp/libwebp-1.2.4-linux-x86-64/lib/libwebp.a \
   -G Ninja \
   ..
